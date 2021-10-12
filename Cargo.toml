@@ -1,0 +1,13 @@
+[package]
+name = "ruston"
+version = "0.1.0"
+authors = ["Shuoliu Yang <visysl@outlook.com>"]
+edition = "2018"
+
+[lib]
+name = "string_sum"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.14.5"
+features = ["extension-module"]
